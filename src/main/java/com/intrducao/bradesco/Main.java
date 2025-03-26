@@ -1,4 +1,4 @@
-package com.rocketseat.createUrlShortner;
+package com.intrducao.bradesco;
 
 public class Main {
     public static void main(String[] args) {
