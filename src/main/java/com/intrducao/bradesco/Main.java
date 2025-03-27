@@ -7,19 +7,19 @@ public class Main {
 
         Scanner scn = new Scanner(System.in);
 
-        int idade = scn.nextInt();
+        String primeiroNome = scn.nextLine();
+        String segundoNome = scn.nextLine();
 
-        if(idade < 18) {
+        String nome = nomeCompleto(primeiroNome, segundoNome);
 
-            System.out.println("Menor de idade");
-        } else if(idade > 18 && idade < 64) {
+        System.out.println();
+        System.out.println(nome);
 
-            System.out.println("Maior de Idade");
-        } else {
+        scn.close();
+    }
 
-            System.out.println("Idoso");
-        }
+    public static String nomeCompleto(String primeiroN, String segundoN) {
 
-        sc.close();
+        return primeiroN.concat(" ").concat(segundoN);
     }
 }
