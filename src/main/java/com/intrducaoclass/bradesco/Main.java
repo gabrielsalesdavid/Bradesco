@@ -1,4 +1,4 @@
-package com.intrducao.bradesco;
+package com.intrducaoclass.bradesco;
 
 import java.util.Scanner;
 
